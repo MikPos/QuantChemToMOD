@@ -329,6 +329,8 @@ if  __name__=="__main__":
                     for_right_string += "\t\t\tnode [ id "+str(it)+" label \""+str(atom_labels[it])+"\" ]\n"
                     if it in all_nodes:
                         all_nodes.remove(it)
+                    if it in nodes:
+                        nodes.remove(it)
         if ed_charges != []:
             for_right_string =""
             for it in ed_charges:
@@ -345,6 +347,8 @@ if  __name__=="__main__":
                     for_right_string += "\t\t\tnode [ id "+str(it[0])+" label \""+str(atom_labels[it[0]])+"\" ]\n"
                     if it[0] in all_nodes:
                         all_nodes.remove(it[0])
+                    if it[0] in nodes:
+                        nodes.remove(it)
 
         right_string = ""
         for_left_string = ""
@@ -362,6 +366,8 @@ if  __name__=="__main__":
                     for_left_string += "\t\t\tnode [ id "+str(it)+" label \""+str(atom_labels[it])+"\" ]\n"
                     if it in all_nodes:
                         all_nodes.remove(it)
+                    if it in nodes:
+                        nodes.remove(it)
         if prod_charges != []:
           for it in prod_charges:
               if (ed_charges == [] or it not in ed_charges):# and it[0] not in ed_radicals:
@@ -377,6 +383,8 @@ if  __name__=="__main__":
                   for_left_string += "\t\t\tnode [ id "+str(it[0])+" label \""+str(atom_labels[it[0]])+"\" ]\n"
                   if it[0] in all_nodes:
                     all_nodes.remove(it[0])
+                  if it[0] in nodes:
+                    nodes.remove(it)
 
         right_string += for_right_string
         left_string += for_left_string
