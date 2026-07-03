@@ -8,9 +8,6 @@ rule [
 	]
 	context [
 			node [ id 9 label "C" ]
-			node [ id 10 label "C" ]
-			node [ id 6 label "O" ]
-
 	]
 	right [
 			 edge [ source 6 target 9 label "-" ]

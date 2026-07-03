@@ -6,8 +6,6 @@ rule [
 
 	]
 	context [
-			node [ id 6 label "O" ]
-			node [ id 9 label "C" ]
 
 	]
 	right [

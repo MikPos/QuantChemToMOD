@@ -292,6 +292,10 @@ if  __name__=="__main__":
         # educt_string = ""
         # product_string = ""
 
+
+        #
+        # This is where there is an issue with the ids.
+        #
         all_nodes = []
         for item in ed_conn_BO:
             for it in item[:2]:

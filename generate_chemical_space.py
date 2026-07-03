@@ -114,4 +114,5 @@ def build_mod_dg(reaction_dict, graph_dict):
     return dg
 
 # Running code:
-make_mod_representation()
+if  __name__=="__main__":
+    make_mod_representation()

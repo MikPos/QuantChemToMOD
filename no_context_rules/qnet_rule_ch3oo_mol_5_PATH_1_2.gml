@@ -8,10 +8,8 @@ rule [
 
 	]
 	context [
-			node [ id 11 label "C" ]
 			node [ id 13 label "C" ]
 			node [ id 16 label "H" ]
-			node [ id 6 label "O" ]
 
 	]
 	right [

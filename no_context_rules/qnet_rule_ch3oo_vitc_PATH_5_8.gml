@@ -7,9 +7,7 @@ rule [
 
 	]
 	context [
-			node [ id 19 label "O" ]
 			node [ id 20 label "H" ]
-			node [ id 6 label "O" ]
 
 	]
 	right [
