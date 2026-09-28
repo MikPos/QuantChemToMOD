@@ -37,6 +37,7 @@ def make_mod_representation():
     # graph_p.simpleCarbons = False
     # p.withInlineGraphs = True
     resulting_dg.print(p)
+    resulting_dg.dump("imported_chemical_space")
 
 
 # Check to make sure: Reaction is "ch3oo-vitc/PATH_0_1"
