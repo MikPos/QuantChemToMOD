@@ -1,0 +1,5 @@
+out/*
+mod_rules_1/*
+mod_rules_2/*
+*.pdf
+mod*.json
