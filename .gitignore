@@ -1,5 +1,16 @@
 out/*
+summary/*
+testenv/*
 mod_rules_1/*
 mod_rules_2/*
 *.pdf
 mod*.json
+path/*
+fancy_dg_printer.py
+fetch_mol_names.py
+
+graph_db.txt
+.DS_Store
+run_all.sh
+simple_dg
+__pycache__
