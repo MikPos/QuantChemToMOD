@@ -1,6 +1,5 @@
 import mod
 import json
-import itertools
 from generate_chemical_space import find_energies
 
 NODE_ID_INDEX = 3
